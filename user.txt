@@ -1,0 +1,13 @@
+USER CRUD ROUTES
+
+POST   /users       Create a user
+GET    /users       List all users
+GET    /users/{id}  Get one user
+PUT    /users/{id}  Update a user
+DELETE /users/{id}  Delete a user
+
+Create/Update body:
+{
+  "name": "string",
+  "email": "string"
+}

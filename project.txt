@@ -1,0 +1,14 @@
+PROJECT CRUD ROUTES
+
+POST   /projects       Create a project
+GET    /projects       List all projects
+GET    /projects/{id}  Get one project
+PUT    /projects/{id}  Update a project
+DELETE /projects/{id}  Delete a project
+
+Create/Update body:
+{
+  "name": "string",
+  "description": "string",
+  "status": "active"
+}

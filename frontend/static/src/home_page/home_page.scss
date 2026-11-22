@@ -1,0 +1,24 @@
+.tmh-page {
+    min-height: calc(100vh - 48px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc;
+}
+
+.tmh-card {
+    display: flex;
+    gap: 20px;
+}
+
+.tmh-button {
+    min-width: 180px;
+    padding: 18px 24px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

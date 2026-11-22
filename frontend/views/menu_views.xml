@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_task_management_home" model="ir.actions.client">
+        <field name="name">Home</field>
+        <field name="tag">frontend.home_page</field>
+    </record>
+
+    <menuitem
+        id="menu_task_management_home"
+        name="Task Management"
+        action="action_task_management_home"
+        sequence="10"
+    />
+</odoo>

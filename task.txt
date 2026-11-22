@@ -1,0 +1,15 @@
+TASK CRUD ROUTES
+
+POST   /tasks       Create a task
+GET    /tasks       List all tasks
+GET    /tasks/{id}  Get one task
+PUT    /tasks/{id}  Update a task
+DELETE /tasks/{id}  Delete a task
+
+Create/Update body:
+{
+  "title": "string",
+  "description": "string",
+  "status": "todo",
+  "project_id": 1
+}
